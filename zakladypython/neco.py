@@ -1,4 +1,4 @@
-string = "Text na rozkouskování"
-### řádky výše NEMĚNIT ###
-# Váš kód sem 👇
-print(string[12:20])
+print("Jméno:", jmeno)
+print("Věk:", vek)
+print("Výška:", vyska)
+print("Je student?", je_student)

@@ -1,6 +1,7 @@
-def trikrat_plus_jedna(cislo):
-    cislo = cislo * 3 + 1 
-    return cislo
+vek = int(input("Kolik ti je let?: "))
+obcanstvi = input("Jseš občan ČR? (ano/ne): ")
 
-for i in range(0, 19, 3):
-    print(f"Pro hodnotu {i} je výsledek {trikrat_plus_jedna(i)}")
+if vek >= 18 and obcanstvi == "ano":
+    print("Můžeš volit.")
+else:
+    print("Nem;6e3 volit.")

@@ -1,7 +1,9 @@
 vek = int(input("Kolik ti je let?: "))
-obcanstvi = input("Jseš občan ČR? (ano/ne): ")
+student = input("Jseš student školy? (ano/ne): ")
+doprovod = input("Máš doprovod dospělého? (ano/ne): ")
+zakaz_vstupu = input("Máš zakaz vstupu? (ano/ne): ")
 
-if vek >= 18 and obcanstvi == "ano":
-    print("Můžeš volit.")
+if vek >= 15 and student == "ano" and doprovod == "ano" and zakaz_vstupu == "ne":
+    print("Vstup povolen.")
 else:
-    print("Nem;6e3 volit.")
+    print("Vstup neni povolen")

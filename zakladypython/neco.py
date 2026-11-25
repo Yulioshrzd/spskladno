@@ -1,9 +1,6 @@
-vek = int(input("Kolik ti je let?: "))
-student = input("Jseš student školy? (ano/ne): ")
-doprovod = input("Máš doprovod dospělého? (ano/ne): ")
-zakaz_vstupu = input("Máš zakaz vstupu? (ano/ne): ")
+veta = "Ahoj krásný světe"
+slova = veta.split()           # → ["Ahoj", "krásný", "světe"]
+zpet = " ".join(slova)         # → "Ahoj krásný světe"
 
-if vek >= 15 and student == "ano" and doprovod == "ano" and zakaz_vstupu == "ne":
-    print("Vstup povolen.")
-else:
-    print("Vstup neni povolen")
+print(f"Rozděleno: {slova}")
+print(f"Spojeno zpět: '{zpet}'")
